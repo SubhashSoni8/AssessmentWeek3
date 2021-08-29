@@ -1,12 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AssessmentWeek3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            margin: auto;
+        }
+
+        .container {
+            
+           
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .wrapper {
+
+
+            width: 100%;
+        }
+
+        .box {
+            height: 600px;
+            border: 2px solid black;
+            float: left;
+            width: 30%;
+            margin: 1%;
+            background: yellow;
+            box-sizing: border-box;
+        }
+
+        .inner1 {
+            height: 280px;
+            /* border: 2px solid black;  */
+            width: 40%;
+            float: left;
+            margin: 1em;
+            margin-left: 0;
+            background: rgb(111, 193, 218);
+        }
+
+        .inner2 {
+            height: 280px;
+            /* border: 2px solid black;  */
+            width: 40%;
+            float: right;
+            margin: 1em;
+            margin-right: 0;
+            background: rgb(111, 193, 218);
+        }
+
+        .inner3 {
+            height: 280px;
+            /* border: 2px solid black;  */
+            width: 85%;
+            clear: left;
+            margin: auto;
+            background: rgb(111, 193, 218);
+            padding-top: 1em;
+
+        }
+
+        .inner2-1 {
+            height: 95%;
+            /* border: 2px solid black;  */
+            width: 36%;
+            float: left;
+            margin: 1em;
+            margin-right: 0;
+            background: rgb(111, 193, 218);
+        }
+
+        .inner2-2 {
+            height: 95%;
+            /* border: 2px solid black;  */
+            width: 36%;
+            float: right;
+            margin: 1em;
+            margin-left: 0;
+            background: rgb(111, 193, 218);
+        }
+
+        .inner3-1 {
+            padding: 1em;
+            height: 270px;
+            /* border: 2px solid black;  */
+            width: 36%;
+            float: left;
+            margin: 1em;
+            margin-bottom: 0;
+            margin-right: 0;
+            background: rgb(111, 193, 218);
+        }
+
+        .img1 {
+            height: 250px;
+            width: 100%;
+        }
+
+        .inner3-2 {
+            margin: 1em;
+            /* margin-right: 0; */
+            width: 36%;
+            float: right;
+        }
+
+        .img2 {
+            height: 250px;
+            width: 100%;
+        }
+
+        .inner3-3 {
+
+            margin: 1em;
+            /* margin-right: 0; */
+            width: 36%;
+            float: left;
+        }
+
+        .inner3-4 {
+            height: 280px;
+            /* border: 2px solid black;  */
+            width: 40%;
+
+            float: right;
+
+            margin: 1em;
+            margin-top: 0;
+            margin-left: 0;
+            background: rgb(111, 193, 218);
+        }
+
+        @media screen and (min-width: 769px) {
+            
+        }
+
+        @media screen and (max-width: 768px) {
+            .box {
+                width: 100%;
+            }
+            .inner2-1{
+                width: 90%;
+                height: 45%;
+            }
+            .inner2-2{
+                width: 90%;
+                height: 45%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>This is Assessment for week 3</h1>
+    <div class="container">
+        <h1>Final Assessment - Subhash Soni</h1>
+        <div class="wrapper">
+            <div class="box">
+                <div class="inner1">
+
+                </div>
+                <div class="inner2">
+
+                </div>
+                <div class="inner3">
+                    <p>
+                    <ol>
+                        <li>
+                            Css properties
+                        </li>
+                        <li>
+                            Box-sizing
+                        </li>
+                        <li>
+                            Mediaquerry
+                        </li>
+
+                    </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner2-1">
+                    1.
+                </div>
+                <div class="inner2-2">
+                    2.
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner3-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta plibero officia fugit
+                    doloribus. Repellat qui fugit adipisci? .
+                </div>
+                <div class="inner3-2">
+                    <img class="img1" src="./images/guitar.jpg" alt="">
+                </div>
+                <div class="inner3-3">
+                    <img class="img2" src="./images/piano.jpg" alt="">
+                </div>
+                <div class="inner3-4">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
+
 </html>
